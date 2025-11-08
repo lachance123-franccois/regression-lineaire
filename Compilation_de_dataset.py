@@ -6,7 +6,6 @@ path = r"C:\Users\AWOUNANG\Downloads\archive\nouveau dossier"
 #Récupère la liste de tous les fichiers CSV dans le dossier
 
 all_files = glob.glob(path + "/*.csv")
-
 dfs = []
 
 #chargement des fichiers contenus dans le dosssier.
